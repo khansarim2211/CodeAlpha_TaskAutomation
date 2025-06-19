@@ -30,8 +30,8 @@ def move_jpg_files(source_folder, destination_folder):
 def main():
     """Main function to run the automation script."""
     # Define source and destination folders
-    source_folder =  "D:\source"  # Replace with your source folder path
-    destination_folder = "D:\jpg_files"  # Replace with your destination folder path
+    source_folder =  "D:\source"  
+    destination_folder = "D:\jpg_files" 
     
     print(f"Moving .jpg files from '{source_folder}' to '{destination_folder}'...")
     try:
